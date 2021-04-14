@@ -23,7 +23,7 @@ const JiraPlugin = require('tracey-plugin-jira');
 
 module.exports = {
     plugins: [
-        JiraPlugin({ /* configuration options */ }),
+        JiraPlugin.plugin({ /* configuration options */ }),
     ],
 };
 ```
