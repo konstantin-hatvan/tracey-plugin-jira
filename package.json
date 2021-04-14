@@ -1,0 +1,27 @@
+{
+  "name": "tracey-plugin-jira",
+  "version": "0.1.0",
+  "description": "Connector between Tracey and JIRA",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/konstantin-hatvan/tracey-plugin-jira.git"
+  },
+  "keywords": [
+    "tracey",
+    "plugin"
+  ],
+  "author": "Konstantin Hatvan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/konstantin-hatvan/tracey-plugin-jira/issues"
+  },
+  "homepage": "https://github.com/konstantin-hatvan/tracey-plugin-jira#readme",
+  "dependencies": {
+    "mdast-builder": "1.1.1",
+    "unist-util-visit": "2.0.3"
+  },
+  "scripts": {
+    "postversion": "git push && git push --tags"
+  }
+}
