@@ -1,6 +1,6 @@
 {
   "name": "tracey-plugin-jira",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Connector between Tracey and JIRA",
   "main": "index.js",
   "repository": {
